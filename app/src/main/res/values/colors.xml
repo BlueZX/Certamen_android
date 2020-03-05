@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fondo">#CDC6AE</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="gnumero">#F57B51</color>
+    <color name="mas">#EE6352</color>
+    <color name="menos">#59CD90</color>
+    <color name="c">#3FA7D6</color>
+    <color name="x">#FAC05E</color>
+    <color name="div">#F79D84</color>
+    <color name="primo">#725AC1</color>
+    <color name="par">#85CB33</color>
+    <color name="resultado">#D81E5B</color>
+    <color name="result">#751F83</color>
+</resources>
