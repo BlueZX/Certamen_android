@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
                     tvResultado.setText("Error");
                     tvResultadoText.setText(" - ");
                     resText = "";
+                    c = 0.0;
                 }
 
             }
@@ -138,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     tvPrimerNumero.setText(" ");
                     tvSegundoNumero.setText(" ");
+                    c = 0.0;
                     tvOperacion.setText("?");
                     tvResultado.setText("Error");
                     tvResultadoText.setText(" - ");
@@ -159,6 +161,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     tvPrimerNumero.setText(" ");
                     tvSegundoNumero.setText(" ");
+                    c = 0.0;
                     tvOperacion.setText("?");
                     tvResultado.setText("Error");
                     tvResultadoText.setText(" - ");
@@ -181,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
                     tvPrimerNumero.setText(" ");
                     tvSegundoNumero.setText(" ");
                     tvOperacion.setText("?");
+                    c = 0.0;
                     tvResultado.setText("Error");
                     tvResultadoText.setText(" - ");
                     resText = "";
@@ -192,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(c%2 == 0){
+                if(c%2 == 0 ){
                     resText = "ES PAR";
                 }else{
                     resText = "ES IMPAR";
@@ -203,6 +207,10 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     tvResultadoText.setText(" - ");
 
+                }
+
+                if(c == 0){
+                    tvResultadoText.setText(" - ");
                 }
             }
         });
@@ -235,6 +243,10 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     tvResultadoText.setText(" - ");
 
+                }
+
+                if(c == 0){
+                    tvResultadoText.setText(" - ");
                 }
             }
         });
